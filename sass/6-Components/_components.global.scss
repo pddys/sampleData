@@ -1,0 +1,17 @@
+body {
+	font-family: sans-serif;
+	font-display: swap;
+	background-color: darken(white, 5%)
+}
+
+.c-heading {
+	border-bottom: 1px solid black;
+	width: 100%;
+	max-width: 800px;
+    margin: 0 auto;
+    margin-top: 24px;
+
+    h1 {
+    	font-size: 150%;
+    }
+}
