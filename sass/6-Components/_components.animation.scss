@@ -48,3 +48,16 @@ $colors-list: #E43F6F #008DD5 #373F51 #70F8BA #EF3054 #23CE6B;
 	    }
     }
 }
+@each $current-color in $colors-list {
+    $i: index($colors-list, $current-color);
+    .c-card-list--4 {
+      .c-card:nth-of-type(#{$i}) {
+        .c-card__title::before, .c-card__title::selection, .c-card__cta::after, .c-card__cta::selection, .c-card__info p::selection, .c-card__info p::after { 
+            background-color: $current-color;
+        }
+        .c-card__mob-image {
+          border-color: $current-color;
+        }
+      }
+    }
+}
