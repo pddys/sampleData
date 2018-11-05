@@ -28,7 +28,7 @@ $("body").append ( `
 				<p>Adds Random event data to any class name js__title</p>
 				<input type="radio" name="eventRadioButton" class="c-rb c-rb--Hippodrome" value="Hippodrome"> Birmingham Hippodrome</input><br>
 				<input type="radio" name="eventRadioButton" class="c-rb c-rb--AmRep" value="AmRep"> American Repetory Theatre</input><br>
-				<input type="radio" name="eventRadioButton" class="c-rb" value="" disabled> Third Customer</input><br>
+				<input type="radio" name="eventRadioButton" class="c-rb c-rb--Lensic" value="Lensic"> Lensic</input><br>
 			</div>
 
 			<div>
